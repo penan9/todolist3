@@ -1,0 +1,9 @@
+version: '3'
+services:
+  app:
+    #build: ./
+    image: penan9/pythontodo_app
+    ports:
+      - '5001:5001'
+    volumes:
+      - /Users:/Users/user/PycharmProjects/pythonTodo
