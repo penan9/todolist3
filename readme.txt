@@ -1,4 +1,4 @@
-git clone
+git clone https://github.com/penan9/todolist3.git
 
 (myVenv) 8:16:57:~/PycharmProjects/pythonTodo
 % docker build --no-cache -t mytododocker:latest .
