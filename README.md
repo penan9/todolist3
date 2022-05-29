@@ -1,3 +1,5 @@
+git clone https://github.com/penan9/todolist3.git
+
 (myVenv) 8:16:57:~/PycharmProjects/pythonTodo
 % docker build --no-cache -t mytododocker:latest .
 % docker run -p 5001:5001 --rm mytododocker
@@ -33,7 +35,7 @@ to list out a particular list:
 
 2) curl \
 --request GET \
---header "Authorization: Bearer ya29.a0ARrdaM_bpzpN8vgANr4PLdFcnozwPz7BCX8JW7pkRDlIuohD-1K7YhhoSQ_YLr88YGLKYcpE-ZJfj0pSSqNbWA5zh5ZbXM1np91pi5ugMsKVpWn0aBfjGAJ3C8uX7ys7b6yX5KFRqKvGeo3qFNkRXkiKoYgD" \
+--header "Authorization: Bearer ya29.a0ARrdaM8S2ukLrOjo5QlKsEs3ZEEfvQYuZY7itYyZb5si4q8EcP0RKES5xU7A-9tLY7zzPR-_A0qLKq5lPz5l9CHYnOg1yDDsBhxoqzhFkwg_iTJkDwspDqpw8-QwHt_N3ywjLtyNFphmYMEdkbyGXoo31hX9" \
 --header "Accept: application/json" \
 --url "http://localhost:5001/todo/3"
 
